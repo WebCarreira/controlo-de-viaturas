@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veiculos Pesados</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
         body{
+            /*max-width: 1000px;
+            min-width: 300px;*/
             background-color: gray;
+            text-align: center;
+        }
+
+        fieldset{
+            width: 50%;
+            margin: 0px auto;
+        }
+       
+        h1{
+            text-align: center;
         }
     </style>
 </head>
@@ -346,6 +362,7 @@
                 </select>
                 <br>
             </fieldset>
+        </fieldset>
                                  <!--Cabine-->
             <fieldset>
                 <legend>Cabine</legend>
@@ -433,7 +450,7 @@
                     <option value="na">Não Aplicável</option>
                 </select>
             </fieldset>
-        </fieldset>
+        
 
         <div>
             <p>Estado Geral da Viatura (Bancos, etc):</p>
@@ -448,7 +465,7 @@
         <fieldset>
             <legend>Identificação</legend>
             <label for="inome">Nome: </label>
-            <input type="text" name="nome" id="inome" required>
+            <input type="text" name="nome" id="inome" required><br>
             <label for="inumec">Número Mecanográfico: </label>
             <input type="number" name="numec" id="inumec" required>
         </fieldset>
