@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /*max-width: 1000px;
+    min-width: 300px;*/
+    background-color: gray;
+    text-align: center;
+}
+
+fieldset{
+    width: 400px;
+    /*margin: 0px auto;*/
+}
+
+h1{
+    text-align: center;
+}
+
+.viatura{
+    position: absolute;
+}
+
+.niveis{
+    position: absolute;
+    top: 300px;
+}
+
+.luzes{
+    position: absolute;
+    left: 410px;
+}
+
+.cabine{
+    position: absolute;
+    top: 160px;
+}
+
+.diversos{
+    position: absolute;
+    top: 500px;
+}
+
+.observacao{
+    position: absolute;
+    top: 650px;
+    left: 400px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.submeter{
+    position: absolute;
+    top: 715px;
+    left: 150px;
+}
+
+.identificacao{
+    position: absolute;
+    top: 605px;
+}
+
+.data{
+    position: absolute;
+    top: 680px;
+    margin-left: 10px;
+}

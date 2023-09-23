@@ -4,27 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veiculos Pesados</title>
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-        body{
-            /*max-width: 1000px;
-            min-width: 300px;*/
-            background-color: gray;
-            text-align: center;
-        }
-
-        fieldset{
-            width: 50%;
-            margin: 0px auto;
-        }
-       
-        h1{
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo/pesados.css" media="screen">
 </head>
 <body>
     <header>
@@ -36,7 +16,7 @@
     </header>
     <h1>Controlo a efectuar ao inicio de cada turno</h1>
     <form action="#" method="post" autocomplete="on">
-        <fieldset>
+        <fieldset class="viatura">
             <legend>Dados da Viatura</legend>
             <div>
                 <label for="iviatura">Veículo: </label>
@@ -61,7 +41,7 @@
             </div>
         </fieldset>
                         <!--Parâmetros da viatura-->
-        <fieldset>
+        <fieldset class="niveis">
             <legend>Parâmetros</legend>
             <label for="icombustivel">Combustível</label>
             <select name="combustivel" id="icombustivel">
@@ -149,7 +129,7 @@
             <br>
         </fieldset>
                     <!--Controlo de Luzes-->
-        <fieldset>
+        <fieldset class="luzes">
             <legend>Luzes</legend>
                      <!--Frente Direita-->
             <fieldset>
@@ -364,7 +344,7 @@
             </fieldset>
         </fieldset>
                                  <!--Cabine-->
-            <fieldset>
+            <fieldset class="cabine">
                 <legend>Cabine</legend>
                 <label for="ibuzina">Buzina</label>
                 <select name="buzina" id="ibuzina">
@@ -416,7 +396,7 @@
                 <br>
             </fieldset>
                                     <!--Diversos-->
-            <fieldset>
+            <fieldset class="diversos">
                 <legend>Diversos</legend>
                 <label for="ibat">Baterias</label>
                 <select name="bat" id="ibat">
@@ -452,17 +432,17 @@
             </fieldset>
         
 
-        <div>
+        <div class="observacao">
             <p>Estado Geral da Viatura (Bancos, etc):</p>
             <label for="imsg"></label>
             <textarea name="msg" id="imsg" cols="50" rows="5"></textarea>
         </div>
 
-        <div>
+        <div class="data">
             <p>Data: 15-09-2023</p>
         </div>
 
-        <fieldset>
+        <fieldset class="identificacao">
             <legend>Identificação</legend>
             <label for="inome">Nome: </label>
             <input type="text" name="nome" id="inome" required><br>
@@ -470,7 +450,7 @@
             <input type="number" name="numec" id="inumec" required>
         </fieldset>
 
-        <div>
+        <div class="submeter">
             <input type="submit" value="Enviar">
             <input type="reset" value="Apagar">
         </div>
