@@ -68,3 +68,44 @@ h1{
     top: 680px;
     margin-left: 10px;
 }
+
+.vuci07{
+    visibility: hidden;
+}
+
+.vucifrt{
+    position: absolute;
+    width: 300px;
+    display: block;
+    margin: auto;
+    left: 900px;
+    padding: 5px;
+}
+
+.vucidrt{
+    position: absolute;
+    width: 300px;
+    display: block;
+    margin: auto;
+    left: 1230px;
+    padding: 5px;
+}
+.vucitras{
+    position: absolute;
+    width: 300px;
+    display: block;
+    margin: auto;
+    left: 900px;
+    top: 460px;
+    padding: 5px;
+}
+
+.vuciesq{
+    position: absolute;
+    width: 300px;
+    display: block;
+    margin: auto;
+    left: 1230px;
+    top: 300px;
+    padding: 5px;
+}
