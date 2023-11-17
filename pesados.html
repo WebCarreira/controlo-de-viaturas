@@ -450,12 +450,19 @@
             <input type="number" name="numec" id="inumec" required>
         </fieldset>
 
-        <section id="danos">
-            <div class="vuci07">
+        <section id="danos" onclick="visual()">
+            <div class="vuci07" id="vuci07">
                 <img class="vucifrt" src="imagens/VUCI-07/vuci07-frt.jpg" alt="carro de fogo urbano frente">
                 <img class= "vucidrt" src="imagens/VUCI-07/vuci07-drt.jpg" alt="carro de fogo urbano direita">
                 <img src="imagens/VUCI-07/vuci07-trs.jpg" alt="carro de fogo urbano traseira" class="vucitras">
                 <img src="imagens/VUCI-07/vuci07-esq.jpg" alt="carro de fogo urbano esquerda" class="vuciesq">
+            </div>
+            <div class="visualiza">
+                <p>Sinalizar danos na viatura: 
+                    <input type="button" value="Visualizar" id="vis">
+                    <input type="button" value="Esconder" id="esc" onclick="esconde()">
+                </p>
+                    
             </div>
         </section>
 
