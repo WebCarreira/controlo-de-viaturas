@@ -82,7 +82,7 @@ h1{
 .vuci07{
     position: absolute;
     top: 100px;
-    visibility: hidden;
+    display: none;
 }
 
 .vucifrt{
