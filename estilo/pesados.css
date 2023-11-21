@@ -17,6 +17,11 @@ fieldset{
     width: 97vw;
 }
 
+legend{
+    color: white;
+    font-weight: bold;
+}
+
 h1{
     text-align: center;
 }
