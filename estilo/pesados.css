@@ -14,7 +14,9 @@ body{
 }
 
 fieldset{
-    width: 97vw;
+    width: 500px;
+    display: block;
+    margin: auto;
 }
 
 legend{
@@ -95,7 +97,7 @@ h1{
     display: none;
 }
 
-.vucifrt{
+.vuci07frt{
    /* position: absolute;*/
     width: 300px;
     display: block;
@@ -104,7 +106,7 @@ h1{
     padding: 5px;
 }
 
-.vucidrt{
+.vuci07drt{
     /*position: absolute;*/
     width: 300px;
     display: block;
@@ -112,7 +114,7 @@ h1{
   /* left: 1230px; */
     padding: 5px;
 }
-.vucitras{
+.vuci07tras{
     /*position: absolute;*/
     width: 300px;
     display: block;
@@ -122,7 +124,7 @@ h1{
     padding: 5px;
 }
 
-.vuciesq{
+.vuci07esq{
     /*position: absolute;*/
     width: 300px;
     display: block;
