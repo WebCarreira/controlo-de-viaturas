@@ -3,6 +3,14 @@
 /*Media query*/
 
 @media screen and (min-width: 768px) and (max-width: 991px){
+
+    legend{
+        font-size: 1.1em;
+    }
+    
+    p{
+        font-size: 1.1em;
+    }
     .vuci07frt{
         width: 600px;
     }
@@ -21,6 +29,19 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px){
+
+    fieldset{
+        width: 700px;
+        font-size: 1.3em;
+    }
+
+    legend{
+        font-size: 1.2em;
+    }
+    
+    p{
+        font-size: 1.2em;
+    }
     .vuci07frt{
         width: 900px;
     }
@@ -39,6 +60,20 @@
 }
 
 @media screen and (min-width: 1200px) {
+    fieldset{
+        width: 700px;
+        font-size: 1.6em;
+    }
+
+    legend{
+        font-size: 1.3em;
+    }
+    
+    p{
+        font-size: 1.3em;
+    }
+
+
     .vuci07frt{
         width: 950px;
     }
