@@ -2,7 +2,7 @@
 
 /*Media query*/
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 991px){
     .vuci07frt{
         width: 600px;
     }
@@ -17,5 +17,41 @@
 
     .vuci07esq{
         width: 600px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .vuci07frt{
+        width: 900px;
+    }
+
+    .vuci07drt{
+        width: 900px;
+    }
+
+    .vuci07tras{
+        width: 900px;
+    }
+
+    .vuci07esq{
+        width: 900px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .vuci07frt{
+        width: 950px;
+    }
+
+    .vuci07drt{
+        width: 950px;
+    }
+
+    .vuci07tras{
+        width: 950px;
+    }
+
+    .vuci07esq{
+        width: 950px;
     }
 }
