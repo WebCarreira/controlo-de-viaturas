@@ -4,6 +4,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px){
 
+    fieldset{
+        width: 500px;
+    }
+
     legend{
         font-size: 1.1em;
     }
