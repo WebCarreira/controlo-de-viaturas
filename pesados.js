@@ -1,3 +1,4 @@
+/*
 let vuci07 = document.getElementById(`vuci07`)
 
 function visual() {
@@ -20,4 +21,34 @@ function esconder() {
         vuci07.style.display = `block`
         esconde = false
     }
+}
+*/
+
+function startTime()
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+// adicione um zero na frente de números<10
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);
+}
+function checkTime(i)
+{
+if (i<10)
+{
+i="0" + i;
+}
+return i;
+}
+
+function dia(){
+    date = new Date()
+    year = date.getFullYear()
+    month = date.getMonth()
+    day = date.getDate()
+    document.getElementById("res").innerHTML = day + "/" + month + "/" + year
 }
